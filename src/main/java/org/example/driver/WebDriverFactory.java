@@ -7,8 +7,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.EnumMap;
 import java.util.Map;
 import java.util.concurrent.Semaphore;
@@ -67,6 +65,5 @@ public class WebDriverFactory {
                 throw new IllegalArgumentException("Unsupported browser type: " + browserType);
         }
     }
-    
 
 }
